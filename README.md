@@ -404,4 +404,4 @@ git push origin feature/modelos
 
 ---
 
-*Proyecto desarrollado para Alkemy — Módulo 7: Desarrollo Web con Django* 🐍
+*Proyecto desarrollado Docente: Sabina Romero — Módulo 7: Desarrollo Web con Django* 🐍
