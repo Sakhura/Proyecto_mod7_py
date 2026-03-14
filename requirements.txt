@@ -1,0 +1,20 @@
+# ============================================================
+# DEPENDENCIAS DEL PROYECTO - Alke Wallet
+# ============================================================
+# Este archivo lista todas las librerías necesarias para
+# ejecutar el proyecto. Se instalan con:
+#   pip install -r requirements.txt
+# ============================================================
+
+# Framework principal - Django 4.x LTS (Long Term Support)
+# Es el núcleo del proyecto: maneja URLs, vistas, ORM, admin, etc.
+Django>=4.2,<5.0
+
+# Adaptador para PostgreSQL (producción)
+# Permite que Django se conecte a bases de datos PostgreSQL
+# En desarrollo usamos SQLite (no necesita adaptador extra)
+psycopg2-binary>=2.9
+
+# Librería para manejar variables de entorno desde un archivo .env
+# Evita hardcodear contraseñas y claves secretas en el código
+python-dotenv>=1.0
